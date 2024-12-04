@@ -1,0 +1,30 @@
+fn main(test) {
+    let meow: Int = 1;
+    let wo_of: String = "woof";
+
+    meow = 232 + 2 - 200 / 5 * 10;
+
+    chirp("Hello World");
+
+
+    if meow == woof {
+        chirp("skibidi");
+    } else {
+        chirp("skibidi skiidi on the wall whos the skibidies of them all");
+        if 1 == 1 {
+            woof = "21";
+            meow = 21;
+        } maybe 21 == 1{
+          meow = 1
+        } elseif 22 == 2 {  
+          meow = 2
+        } else {
+            woof = "false";
+        }
+    }
+}
+
+fn chirp(first: String) -> String {
+    let woof = "first";
+    return woof;
+}

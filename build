@@ -1,0 +1,5 @@
+#!/bin/bash
+cargo build --release
+cp "target/release/fiskur" "/home/fazzbear/bin/"
+cd fiskur
+fiskur build
