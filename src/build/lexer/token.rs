@@ -16,6 +16,7 @@ pub enum TokenType {
     Let,
     Identifier(String),
     Return,
+    Break,
 
     StartScope,
     CloseScope,

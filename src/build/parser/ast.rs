@@ -1,3 +1,9 @@
-pub enum idk {
-    string: String
+#[derive(Debug, Default)]
+pub enum Node {
+    #[default]
+    Unkown,
+    Break,
+    Function {
+        string: String
+    }
 }

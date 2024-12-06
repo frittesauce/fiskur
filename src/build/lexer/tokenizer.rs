@@ -92,6 +92,7 @@ fn non_single(reader: &mut Reader, begin_ch: Char) -> (TokenType, Char) {
             "return" => TokenType::Return,
             "true" => TokenType::Boolean(true),
             "false" => TokenType::Boolean(false),
+            "break" => TokenType::Break,
             _ => TokenType::Identifier(string),
         };
 
