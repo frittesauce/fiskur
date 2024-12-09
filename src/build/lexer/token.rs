@@ -17,7 +17,8 @@ pub enum TokenType {
     Identifier(String),
     Return,
     Break,
-
+    Switch,
+    
     StartScope,
     CloseScope,
     OpenParamn,

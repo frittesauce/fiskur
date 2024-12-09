@@ -22,7 +22,19 @@ fn main(test) {
             woof = "false";
         }
     }
+
+    let string: String = switch meow {
+      1 => "meow",
+      3 => {
+        return "boef"
+      },
+      _ => {
+        return "woof";
+      }
+    }
+
 }
+
 
 fn chirp(first: String) -> String {
     let woof = "first";

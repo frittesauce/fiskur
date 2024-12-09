@@ -88,6 +88,7 @@ fn non_single(reader: &mut Reader, begin_ch: Char) -> (TokenType, Char) {
             "else" => TokenType::Else,
             "maybe" => TokenType::ElseIf,
             "elseif" => TokenType::ElseIf,
+            "switch" => TokenType::Switch,
             "let" => TokenType::Let,
             "return" => TokenType::Return,
             "true" => TokenType::Boolean(true),
